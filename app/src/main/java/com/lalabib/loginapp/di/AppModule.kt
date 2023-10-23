@@ -1,8 +1,8 @@
 package com.lalabib.loginapp.di
 
 import com.lalabib.loginapp.data.remote.Repository
-import com.lalabib.loginapp.domain.usecase.ListUserInteractor
-import com.lalabib.loginapp.domain.usecase.ListUserUseCase
+import com.lalabib.loginapp.domain.usecase.UserInteractor
+import com.lalabib.loginapp.domain.usecase.UserUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -15,6 +15,6 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideListUserUseCase(repository: Repository) : ListUserUseCase =
-        ListUserInteractor(repository)
+    fun provideListUserUseCase(repository: Repository) : UserUseCase =
+        UserInteractor(repository)
 }

@@ -2,12 +2,20 @@
     <string name="app_name">LoginApp</string>
 
     <string name="home_title">Home</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_logout">Confirm Exit</string>
+    <string name="logout_message">Are you sure want to exit the application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="login">Login</string>
     <string name="image">image</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="retry">Retry</string>
+    <string name="cant_empty">This field can\'t be empty</string>
+    <string name="login_success">Login Successfully</string>
+    <string name="login_failed">User not found</string>
 </resources>
