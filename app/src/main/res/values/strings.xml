@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">LoginApp</string>
+
+    <string name="home_title">Home</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="image">image</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="retry">Retry</string>
 </resources>
