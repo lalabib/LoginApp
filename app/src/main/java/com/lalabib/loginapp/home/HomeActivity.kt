@@ -39,10 +39,10 @@ class HomeActivity : AppCompatActivity() {
 
     private fun setupData() {
         homeViewModel.getUser().observe(this@HomeActivity) {
-            if (it.token == "") {
-                moveToLogin()
-            } else {
+            if (it.token.isNotEmpty()) {
                 getAllUser()
+            } else {
+                moveToLogin()
             }
         }
     }

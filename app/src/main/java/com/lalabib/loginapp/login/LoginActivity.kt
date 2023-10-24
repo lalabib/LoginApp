@@ -63,11 +63,11 @@ class LoginActivity : AppCompatActivity() {
                     if (result != null) {
                         when (result) {
                             is Result.Loading -> {
-                                progressBar.visibility = View.VISIBLE
+                                showLoading(true)
                             }
 
                             is Result.Success -> {
-                                progressBar.visibility = View.GONE
+                                showLoading(false)
                                 Toast.makeText(
                                     this@LoginActivity,
                                     R.string.login_success,
@@ -79,7 +79,7 @@ class LoginActivity : AppCompatActivity() {
                             }
 
                             is Result.Error -> {
-                                progressBar.visibility = View.GONE
+                                showLoading(false)
                                 Toast.makeText(
                                     this@LoginActivity,
                                     R.string.login_failed,
@@ -99,5 +99,9 @@ class LoginActivity : AppCompatActivity() {
     private fun moveToHome() {
         startActivity(Intent(this@LoginActivity, HomeActivity::class.java))
         finish()
+    }
+
+    private fun showLoading(isLoading: Boolean) {
+        binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
     }
 }
