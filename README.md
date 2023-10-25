@@ -1,7 +1,8 @@
 # loginApp
 LoginApp is a simple login application that uses reqres.in API and displays a list of users with pagination.
 
-### Tech Stack
+## Tech Stack
+
 - [Kotlin](https://kotlinlang.org)
 - [View Binding](https://developer.android.com/topic/libraries/view-binding)
 - [MVVM](https://developer.android.com/jetpack/guide)
@@ -14,7 +15,8 @@ LoginApp is a simple login application that uses reqres.in API and displays a li
 - [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
 - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
 
-### Screenshot
+## Screenshot
+
 <p>
  <img height="350" src="https://github.com/lalabib/LoginApp/assets/57593172/9a27f8f2-ccda-4ce1-b3ef-33f707f062d9"/>
  <img height="350" src="https://github.com/lalabib/LoginApp/assets/57593172/b68b7fbc-f2e2-4b1e-962f-1cdd73846f9c"/>
