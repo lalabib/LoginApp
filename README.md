@@ -18,8 +18,8 @@ LoginApp is a simple login application that uses reqres.in API and displays a li
 ## Screenshot
 
 <p>
- <img height="350" src="https://github.com/lalabib/LoginApp/assets/57593172/9a27f8f2-ccda-4ce1-b3ef-33f707f062d9"/>
- <img height="350" src="https://github.com/lalabib/LoginApp/assets/57593172/b68b7fbc-f2e2-4b1e-962f-1cdd73846f9c"/>
+ <img height="350" src="https://github.com/lalabib/LoginApp/assets/57593172/42222aac-7227-4e38-8438-e7ba01a9e0a6"/>
+ <img height="350" src="https://github.com/lalabib/LoginApp/assets/57593172/326b184e-1a7c-408c-9e9a-26c6b4598a0d"/>
 </p>
 
 ## Author
